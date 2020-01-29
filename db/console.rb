@@ -6,7 +6,7 @@ artist1=Artist.new({
   'artist_name' => 'Red Hot Chilli Peppers'
   })
 
-artist1.save
+artist1.save()
 
   album1=Album.new({
   'album_name' => 'Californication',
@@ -14,7 +14,7 @@ artist1.save
   'artist_id'=> artist1.id
     })
 
-album1.save
+album1.save()
 
 binding.pry
 nil
